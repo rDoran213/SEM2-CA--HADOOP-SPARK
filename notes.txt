@@ -19,7 +19,7 @@ https://api.eia.gov/v2/electricity/rto/daily-region-sub-ba-data/data/?frequency=
 
 
 source /home/hduser/Documents/GitHub/CCT-SEM2-CA1/SEM2-CA--HADOOP-SPARK/keras-env/bin/activate
-dfs-start.sh
-dfs-yarn.sh
+start-dfs.sh
+start-yarn.sh
 
 pyspark
