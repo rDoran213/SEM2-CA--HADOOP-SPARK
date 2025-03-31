@@ -15,3 +15,11 @@ https://api.eia.gov/v2/electricity/rto/daily-region-data/data/?frequency=daily&d
 
 
 https://api.eia.gov/v2/electricity/rto/daily-region-sub-ba-data/data/?frequency=daily&data[0]=value&start=2024-01-01&sort[0][column]=period&sort[0][direction]=desc&offset=0&length=5000
+
+
+
+source /home/hduser/Documents/GitHub/CCT-SEM2-CA1/SEM2-CA--HADOOP-SPARK/keras-env/bin/activate
+dfs-start.sh
+dfs-yarn.sh
+
+pyspark
