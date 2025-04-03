@@ -1,3 +1,34 @@
+
+
+
+
+training_data = RNN_frame.iloc[:, 1].values
+
+x_training_data = []
+y_training_data =[]
+
+training_data = training_data.reshape(-1, 1)
+
+for i in range(7, len(training_data)):
+    x_training_data.append(training_data[i-7:i, 0])
+    y_training_data.append(training_data[i, 0])
+
+x_training_data = np.array(x_training_data)
+y_training_data = np.array(y_training_data)
+
+x_training_data = np.reshape(x_training_data, (x_training_data.shape[0],
+x_training_data.shape[1],
+1))
+
+https://medium.com/analytics-vidhya/time-series-forecasting-using-spark-ml-part-2-31506514c643
+https://www.meteosource.com/client/interactive-documentation
+
+
+
+
+
+
+
 https://www.eia.gov/opendata/browser/electricity/rto/daily-region-sub-ba-data?frequency=daily&data=value;&start=2024-01-01&sortColumn=period;&sortDirection=desc;
 
 
