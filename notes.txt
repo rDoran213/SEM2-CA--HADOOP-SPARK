@@ -1,7 +1,5 @@
 
-
-
-
+https://open-meteo.com/en/docs/historical-weather-api?latitude=40.7143&start_date=2020-01-01&end_date=2025-04-03&longitude=-74.006&daily=temperature_2m_mean,temperature_2m_max
 training_data = RNN_frame.iloc[:, 1].values
 
 x_training_data = []
